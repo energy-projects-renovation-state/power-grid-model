@@ -1,0 +1,6 @@
+# Configuration for https://github.com/wei/pull
+version: "1"
+rules:
+  - base: main
+    upstream: PowerGridModel:main
+    mergeMethod: hardreset
